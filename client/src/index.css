@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Below code is by clicking u can show bloxk below them */
+*{
+    font-family: Outfit;
+}
+.active hr{
+    @apply block
+}
+button{
+    @apply cursor-pointer
+}
+::-webkit-scrollbar{
+    @apply hidden
+}
+@media (max-width:740px){
+   .active p{
+    @apply text-white bg-primary
+   } 
+}
+/* In your global CSS or Tailwind config, you can define this utility */
+.input {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300 transition duration-200;
+  }
+  
