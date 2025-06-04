@@ -64,15 +64,15 @@ const Navbar = () => {
                 <img onClick={()=>setshowMenu(true)} className=' cursor-pointer w-6 md:hidden' src={assets.menu_icon} alt=''/>
             <div className={` ${showMenu?'fixed w-full': 'h-0 w-0'} md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`}>
                 <div className='flex items-center justify-between px-5 py-6'>
-                    <img className='cursor-pointer w-36' src={assets.logo} alt=''/>
+                    <img className='cursor-pointer w-32' src="https://tse2.mm.bing.net/th?id=OIP.AcqZsyLcVvnoxdgVWnfoLAHaDW&pid=Api&P=0&h=180" alt=''/>
                     <img className='cursor-pointer w-7' onClick={()=>setshowMenu(false)} src={assets.cross_icon} alt=''/>
                 </div>
                 <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium'>
                 <NavLink onClick={()=>setshowMenu(false)} to={'/'} ><p className='px-4 py-2 rounded inline-block'>Home</p></NavLink>
-                <NavLink onClick={()=>setshowMenu(false)} to={'/vendors'} ><p className='px-4 py-2 rounded inline-block'>All DOCTORS</p></NavLink>
+                <NavLink onClick={()=>setshowMenu(false)} to={'/vendors'} ><p className='px-4 py-2 rounded inline-block'>All VENDORS</p></NavLink>
                 <NavLink onClick={()=>setshowMenu(false)} to={'/about'} ><p className='px-4 py-2 rounded inline-block'>ABOUT</p></NavLink>
                 <NavLink onClick={()=>setshowMenu(false)} to={'/contact'} ><p className='px-4 py-2 rounded inline-block'>CONTACT</p></NavLink>
-                <NavLink onClick={()=>setshowMenu(false)} to={'/donation'} ><p className='px-4 py-2 rounded inline-block'>DONATION</p></NavLink>
+                <NavLink onClick={()=>setshowMenu(false)} to={'/donation'} ><p className='px-4 py-2 rounded inline-block'>FIND & SALE</p></NavLink>
                 </ul>
             </div>
             <button
