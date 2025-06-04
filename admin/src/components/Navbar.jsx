@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className='flex justify-between items-center bg-white px-4 sm:px-10 py-3 border-b'>
      <div className='flex items-center gap-1 text-xs'>
         <img className='w-36 sm:w-40 cursor-pointer' src="https://tse2.mm.bing.net/th?id=OIP.AcqZsyLcVvnoxdgVWnfoLAHaDW&pid=Api&P=0&h=180" alt=''/>
-        <p className='border border-pink-400 px-2.5 py-0.5 rounded-full  text-gray-600'>{atoken? 'Admin' : 'Doctor'}</p>
+        <p className='border border-pink-400 px-2.5 py-0.5 rounded-full  text-gray-600'>{atoken? 'Admin' : 'Vendor'}</p>
         </div>
         <button onClick={logout} className='bg-pink-500 text-white text-sm px-10 py-2 rounded-full '>LogOut</button>   
     </div>
