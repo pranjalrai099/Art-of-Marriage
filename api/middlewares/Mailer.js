@@ -111,7 +111,7 @@ const sendOtpMail = async (email) => {
     });
 
     console.log("OTP mail sent:");
-    await axios.post(`${process.env.BACKEND_API}/apiback/user/store-otp`, {
+    await axios.post(`https://art-of-marriage-backend.onrender.com/apiback/user/store-otp`, {
       email,
       otp,
     });
