@@ -1,5 +1,6 @@
 # Art-of-Marriage
-Art of Marriage is a wedding service management platform that connects users with vendors and streamlines booking, payment, and communication. It caters to three types of users:
+Art of Marriage is a wedding service management platform that connects users with vendors and streamlines booking, payment, and communication.
+It caters to three types of users:
 
 User – Search and book wedding vendors
 
@@ -11,6 +12,7 @@ Admin – Manage vendor entries and oversee operations
 
 🚀 Features
 🔑 Authentication
+
 Login & Signup via Email OTP verification
 
 Separate portals for Users and Vendors
