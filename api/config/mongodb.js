@@ -1,4 +1,4 @@
-// Password   LsmbbL8r8MNov5xp
+// Password   
 import mongoose from "mongoose";
 const connectDB=async()=>{
     mongoose.connection.on('connected',()=>{
@@ -6,4 +6,5 @@ const connectDB=async()=>{
     })
 await mongoose.connect(`${process.env.MONGODB_URL}/`)
 }
+
 export default connectDB
